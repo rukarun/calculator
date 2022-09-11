@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div class="container">
+    <div>
+      <input readonly id="result" type="text">
+    </div>
+    <div>
+      <button value="7" onclick="num(this.value)">7</button>
+      <button value="8" onclick="num(this.value)">8</button>
+      <button value="9" onclick="num(this.value)">9</button>
+      <button value="+" onclick="ope(this.value)">+</button>
+    </div>
+    <div>
+      <button value="4" onclick="num(this.value)">4</button>
+      <button value="5" onclick="num(this.value)">5</button>
+      <button value="6" onclick="num(this.value)">6</button>
+      <button value="-" onclick="ope(this.value)">-</button>
+    </div>
+    <div>
+      <button value="1" onclick="num(this.value)">1</button>
+      <button value="2" onclick="num(this.value)">2</button>
+      <button value="3" onclick="num(this.value)">3</button>
+      <button value="*" onclick="ope(this.value)">*</button>
+    </div>
+    <div>
+      <button value="0" onclick="num(this.value)">0</button>
+      <button value="00" onclick="zeroZero(this.value)">00</button>
+      <button value="." onclick="ope(this.value)">.</button>
+      <button value="/" onclick="ope(this.value)">/</button>
+    </div>
+    <div>
+      <button onclick="reset()">AC</button>
+      <button value="=" onclick="calc()">=</button>
+    </div>
+  </div>
+  <script src="main.js"></script>
+</body>
+
+</html>

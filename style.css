@@ -1,0 +1,13 @@
+body {
+    background-color: #000000;
+}
+
+button {
+    background-color: #C0C0C0;
+    width: 60px;
+}
+
+.container {
+    box-sizing: border-box;
+    text-align: center;
+}
